@@ -1,8 +1,17 @@
 aid: journey-medidtation
 name: Journey Medidtation
-description: Journey Medidtation is a company surfaced as a portfolio company of canaan-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Journey (Journey Meditation) is a workplace mental health platform that
+  delivers preventive Employee Assistance Program (EAP) services to enterprise
+  organizations. Rather than the reactive model of traditional EAPs, Journey
+  uses AI-powered risk detection (Journey Signal) to identify emerging mental
+  health issues before they escalate and connects employees to clinicians
+  across 190+ countries in 100+ languages. Its offerings include Journey
+  Proactive EAP, the Journey LIVE guided-meditation and wellbeing experience,
+  and a Mental Health Certification training program. The company was surfaced
+  as a portfolio company of Canaan Partners and added to the API Evangelist
+  network. No public developer or API surface has been found; this profile is
+  maintained as a company lead and refreshed by the enrichment pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/journey-medidtation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +19,53 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://journey.live/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mental Health
+- Employee Assistance Program
+- Wellbeing
+- Meditation
+- Healthcare
+- HR Technology
+- Enterprise
 apis: []
+common:
+- type: Website
+  url: https://journey.live/
+- type: About
+  url: https://journey.live/about
+- type: Blog
+  url: https://journey.live/blog
+- type: Support
+  url: https://journey.live/contact
+- type: TermsOfService
+  url: https://journey.live/terms
+- type: PrivacyPolicy
+  url: https://journey.live/privacy
+- type: DomainSecurity
+  url: security/journey-medidtation-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
