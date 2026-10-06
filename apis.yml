@@ -44,7 +44,7 @@ accessModel:
 image: https://journey.live/favicon.ico
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Mental Health
@@ -56,6 +56,10 @@ tags:
 - Enterprise
 apis: []
 common:
+- url: https://journey.live/resources/blog
+  type: Blog
+- url: https://journey.live/resources/blog/feed
+  type: BlogRSS
 - type: Website
   url: https://journey.live/
 - type: About
